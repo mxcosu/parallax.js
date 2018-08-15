@@ -1,6 +1,9 @@
 Parallax.js
 ===========
 
+Minified using:
+https://jscompress.com
+
 Simple parallax scrolling implemented as a jQuery plugin.  
 [http://pixelcog.com/parallax.js/](http://pixelcog.com/parallax.js/)
 

@@ -124,6 +124,11 @@
       sliderExisted = true;
     }
 
+    /* Accessibility addition. Since our parallax background images
+     * are meant to be decorative only, and not alt text is necessary
+     */ 
+    this.$slider[0].setAttribute('alt', "");
+
     this.$mirror.addClass('parallax-mirror').css({
       visibility: 'hidden',
       zIndex: this.zIndex,
